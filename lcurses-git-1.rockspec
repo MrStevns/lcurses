@@ -7,7 +7,7 @@ description = {
   summary = "Lua bindings for curses",
 }
 source = {
-  url = "git://github.com/lcurses/lcurses.git",
+  url = "git://github.com/MrStevns/lcurses.git",
 }
 dependencies = {
   "lua >= 5.1, <= 5.4",

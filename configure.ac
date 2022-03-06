@@ -7,7 +7,7 @@
 ## See README for license.
 ## ------------------------------------------------------------------------
 
-AC_INIT([lcurses], [9.0.0], [http://github.com/lcurses/lcurses/issues])
+AC_INIT([lcurses], [9.0.0], [http://github.com/MrStevns/lcurses/issues])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([m4])
 
@@ -54,7 +54,7 @@ LIBS=$save_LIBS
 AC_CHECK_FUNCS([strlcpy])
 
 ## Lua
-AX_PROG_LUA(5.1, 5.4)
+AX_PROG_LUA(5.1, 5.5)
 AX_LUA_HEADERS
 AC_PATH_PROG([SPECL], [specl], [:])
 
